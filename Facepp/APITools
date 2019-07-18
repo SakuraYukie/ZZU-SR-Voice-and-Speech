@@ -468,7 +468,7 @@ inline int faceplusplusApi::skeletondetect(Mat inputimg, int (&arr)[20]){
 			line(inputimg, pleft_hand, pleft_elbow, Scalar(255,191,0),4);
 			line(inputimg, pleft_elbow, pleft_shoulder, Scalar(0,255,255),4);
 			line(inputimg, pright_hand, pright_elbow, Scalar(0,255,0),4);
-			line(inputimg, pright_elbow, pright_shoulder Scalar(255,191,0),4);
+			line(inputimg, pright_elbow, pright_shoulder, Scalar(255,191,0),4);
 			line(inputimg, pleft_buttocks, pleft_shoulder, Scalar(0,255,255),4);
 			line(inputimg, pright_buttocks, pright_shoulder, Scalar(0,255,0),4);
 			line(inputimg, pleft_foot, pleft_knee, Scalar(255,191,0),4);
